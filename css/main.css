@@ -2331,7 +2331,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/header-bg.jpg) center;
+  width: 100%;
+  background: url(../img/tt9.jpg) center;
   background-size: cover;
 }
 
@@ -2566,7 +2567,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .single-course .course-status {
   background-color: #f6214b;
   color: #fff;
-  padding: 10px 40px;
+  padding: 10px 20px;
   margin-left: 20px;
   margin-top: -60px;
   position: absolute;
@@ -2773,7 +2774,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .callto-area {
   text-align: center;
-  background: url(../img/callto-bg.jpg) center;
+  background: url(../img/header-bg.jpg) center;
   background-size: cover;
 }
 

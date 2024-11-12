@@ -2567,7 +2567,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .single-course .course-status {
   background-color: #f6214b;
   color: #fff;
-  padding: 10px 20px;
+  padding: 5px 10px;
   margin-left: 20px;
   margin-top: -60px;
   position: absolute;
@@ -2623,15 +2623,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .team-area .thumb div {
-  position: absolute;
+  /* position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
-  left: 0;
-  background-color: rgba(246, 33, 75, 0.8);
-  color: #fff;
+  left: 0; */
+  /* background-color: rgba(246, 33, 75, 0.8); */
+  /* color: #fff; */
   opacity: 0;
-  transition: opacity 0.5s;
+  /* transition: opacity 0.5s; */
 }
 
 .team-area .thumb div i {
@@ -2867,7 +2867,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 991.98px) {
   .footer-area .footer-bottom .footer-social {
-    text-align: left;
+    text-align: center;
   }
 }
 
@@ -2993,4 +2993,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .switch-wrap p {
   margin: 0;
+}
+a.icons{
+  
+  color: #f6214b !important;
+}
+a.icons svg:hover{
+  transform: scale(1.2); /* Aumenta el tamaño en 150% */
+  color: #f6214b !important;
 }
